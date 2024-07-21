@@ -12,6 +12,7 @@ An AI-powered text summarizer built with Node.js and the Hugging Face API. This 
 
 - [Node.js](https://nodejs.org/) (version 14 or higher)
 - [Hugging Face API Token](https://huggingface.co/docs/hub/security-tokens)
+
 ## Installation and Setup
 
 1. **Clone the Repository**
@@ -20,15 +21,23 @@ An AI-powered text summarizer built with Node.js and the Hugging Face API. This 
    git clone https://github.com/yourusername/ai-text-summarizer.git
    cd ai-text-summarizer
    ```
+
 2. **Install Dependencies**
 
-  ```bash
-  npm install
-  ```
+    ```bash
+    npm install
+    ```
+
 3. **Set Up Environment Variables**
 
-Create a .env file in the root directory of the project with the following content:
+    Create a .env file in the root directory of the project with the following content:
 
-  ```bash
-  HUGGINGFACE_API_TOKEN=your_huggingface_api_token
-  ```
+    ```bash
+    ACCESS_TOKEN=your_huggingface_api_token
+    ```
+4. **Run the Application**
+    ```bash
+    node index.js
+    ```
+
+Happy Summarizing!
