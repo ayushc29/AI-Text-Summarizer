@@ -7,6 +7,7 @@ An AI-powered text summarizer built with Node.js and the Hugging Face API. This 
 - Summarize long texts into shorter, more digestible summaries
 - Leverage Hugging Face's pre-trained models for natural language processing
 - Simple and intuitive interface for text input and output
+- Animated background using javascript
 
 ## Prerequisites
 
