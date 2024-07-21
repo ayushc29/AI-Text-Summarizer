@@ -2,7 +2,7 @@ require('dotenv').config({ path: __dirname + '/.env' });
 const axios = require('axios');
 const process = require('process');
 
-const TOKEN = process.env.ACCESS_TOKEN;
+const TOKEN = process.env.ACCESS_TOKEN; // Your Access Token
 
 async function summarizeText(text, maxLength, minLength) {
   const data = JSON.stringify({
